@@ -1,10 +1,6 @@
 import yagmail
 from time import sleep
 import os
-os.system('clear')
-os.system('git clone https://github.com/BenjaminCyber/EMAIL')
-os.system('cd EMAIL')
-os.system('python JKTC.py')
 
 os.system('clear')
 os.system('pip install yagmail')
@@ -30,4 +26,4 @@ email=str(input('\033[95mEmail Tujuan?: '))
 x.send(email, subject, body) 
 sleep(2)
 print('\033[95mSUKSES')
-os.system('rm -rf EMAIL')
+
